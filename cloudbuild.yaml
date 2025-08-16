@@ -1,0 +1,16 @@
+steps:
+  # Deploy Backend
+  - name: 'gcr.io/cloud-builders/gcloud'
+    dir: 'master-agent-backend'
+    args: ['app', 'deploy', 'app.yaml', '--quiet', '--project=project-id']
+
+  # Deploy Frontend
+  - name: 'gcr.io/cloud-builders/gcloud'
+    dir: 'master-agent-frontend'
+    args: ['app', 'deploy', 'app.yaml', '--quiet', '--project=project-id']
+
+# logsBucket: 'gs://master-agent-build-logs-dev'
+logsBucket: 'gs://logs-bucket-name'
+
+options:
+  logging: GCS_ONLY

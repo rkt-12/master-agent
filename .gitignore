@@ -14,4 +14,3 @@ Frontend
 .vscode/
 *.log
 
-cloudbuild.yaml
