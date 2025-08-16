@@ -3,8 +3,8 @@
 ## Overview
 
 This app is based on Python/Flask backend, React frontend, and voice notes functionality for task management, goal tracking, note-taking, and chat capabilities.
-This app can be accessed at 
-🔹 Frontend: https://frontend-prod-dot-pure-album-439502-s4.uc.r.appspot.com
+This app can be accessed at <br>
+🔹 Frontend: https://frontend-prod-dot-pure-album-439502-s4.uc.r.appspot.com<br>
 🔹 Backend: https://backend-prod-dot-pure-album-439502-s4.uc.r.appspot.com
 
 ## System Architecture
@@ -115,5 +115,6 @@ gcloud config set project YOUR_PROJECT_ID
 
 
 ## Conclusion
+
 
 Your Master Agent system is now ready for deployment! This comprehensive system provides a solid foundation for personal productivity management with modern web technologies and cloud infrastructure.
